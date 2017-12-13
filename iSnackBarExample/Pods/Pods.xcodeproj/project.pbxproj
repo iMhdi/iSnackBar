@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0288B75ECDE8710462E22E38FCA2B7C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		1E5A8265EC32ACEBEDEB50C1031FAAF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4C6F417788D7E6CD050FFCF16DB8BBC0 /* iSnackBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ECF64B97699D9EDF829D4ED4219992 /* iSnackBar.m */; };
+		743178B4C3D09B1C62B7E5BD19D48089 /* iSnackBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CF566D433AF91CD52E387A2C4710425A /* iSnackBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F3F0DFCA88C685255F48F02EF8BC9DA /* Pods-iSnackBarExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFF98F4218C9DCDD806360EC9F3E70D /* Pods-iSnackBarExample-dummy.m */; };
+		C1B5744F632637FC5095D85356CB1D90 /* iSnackBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA37C713B210F4A4813486D541E7674E /* iSnackBar-dummy.m */; };
+		E2FB9373EFBF4EF9756DD9B1DF8EC267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0560C6948E2458C1A0804D85F88F27CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80009C74E48BABEF6F3A69E0AEBA464F;
+			remoteInfo = iSnackBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16ECF64B97699D9EDF829D4ED4219992 /* iSnackBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iSnackBar.m; path = iSnackBar/iSnackBar.m; sourceTree = "<group>"; };
+		2BAFD31138A302DF286CD36FCE0AF3EE /* Pods-iSnackBarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iSnackBarExample.release.xcconfig"; sourceTree = "<group>"; };
+		2FF4B5C642395A82B3AE7E799D11B997 /* iSnackBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iSnackBar.xcconfig; sourceTree = "<group>"; };
+		8CFF98F4218C9DCDD806360EC9F3E70D /* Pods-iSnackBarExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iSnackBarExample-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D7EA4131747321329AF570CCB5C0FD8 /* libPods-iSnackBarExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSnackBarExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B80E3BCEE1A44DEA762F83628BD474 /* Pods-iSnackBarExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iSnackBarExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB2E207782C5D92EE6D187EAFFCD6169 /* Pods-iSnackBarExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iSnackBarExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE476B5B5AA7FF8F1A61D215BA989D70 /* Pods-iSnackBarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iSnackBarExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B734B251E5548666B87B226638310E6F /* libiSnackBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiSnackBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3211B9A3833AF97E92D329A5FD17320 /* iSnackBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iSnackBar-prefix.pch"; sourceTree = "<group>"; };
+		CA37C713B210F4A4813486D541E7674E /* iSnackBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iSnackBar-dummy.m"; sourceTree = "<group>"; };
+		CAF888239B75BCAFACEB55E0E7DE80CE /* Pods-iSnackBarExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iSnackBarExample-frameworks.sh"; sourceTree = "<group>"; };
+		CF566D433AF91CD52E387A2C4710425A /* iSnackBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iSnackBar.h; path = iSnackBar/iSnackBar.h; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8E39D25BABCED94300A6A32C9B395D3 /* Pods-iSnackBarExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iSnackBarExample-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E593121239C721B7AA75ADE49252CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5A8265EC32ACEBEDEB50C1031FAAF1 /* Foundation.framework in Frameworks */,
+				0288B75ECDE8710462E22E38FCA2B7C3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4E63BA79F61C196840EF946B3D12E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FB9373EFBF4EF9756DD9B1DF8EC267 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A544273620EEAA7D579A0089D6F31D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66CF9B0458C78EF5D959878CDA7E7D9 /* Pods-iSnackBarExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				EC7839928F4A2A61EAE5E80AEDCA6AA2 /* Pods */,
+				B34F675FE255A9929940996339ACFA9D /* Products */,
+				2A544273620EEAA7D579A0089D6F31D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF64FC36C1ACE69219F44C8AA5E655B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF4B5C642395A82B3AE7E799D11B997 /* iSnackBar.xcconfig */,
+				CA37C713B210F4A4813486D541E7674E /* iSnackBar-dummy.m */,
+				C3211B9A3833AF97E92D329A5FD17320 /* iSnackBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iSnackBar";
+			sourceTree = "<group>";
+		};
+		B34F675FE255A9929940996339ACFA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B734B251E5548666B87B226638310E6F /* libiSnackBar.a */,
+				9D7EA4131747321329AF570CCB5C0FD8 /* libPods-iSnackBarExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B925F562D96A9B2393FA5DCE615FBC56 /* iSnackBar */ = {
+			isa = PBXGroup;
+			children = (
+				CF566D433AF91CD52E387A2C4710425A /* iSnackBar.h */,
+				16ECF64B97699D9EDF829D4ED4219992 /* iSnackBar.m */,
+				8FF64FC36C1ACE69219F44C8AA5E655B /* Support Files */,
+			);
+			path = iSnackBar;
+			sourceTree = "<group>";
+		};
+		EC7839928F4A2A61EAE5E80AEDCA6AA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B925F562D96A9B2393FA5DCE615FBC56 /* iSnackBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F66CF9B0458C78EF5D959878CDA7E7D9 /* Pods-iSnackBarExample */ = {
+			isa = PBXGroup;
+			children = (
+				A2B80E3BCEE1A44DEA762F83628BD474 /* Pods-iSnackBarExample-acknowledgements.markdown */,
+				AB2E207782C5D92EE6D187EAFFCD6169 /* Pods-iSnackBarExample-acknowledgements.plist */,
+				8CFF98F4218C9DCDD806360EC9F3E70D /* Pods-iSnackBarExample-dummy.m */,
+				CAF888239B75BCAFACEB55E0E7DE80CE /* Pods-iSnackBarExample-frameworks.sh */,
+				D8E39D25BABCED94300A6A32C9B395D3 /* Pods-iSnackBarExample-resources.sh */,
+				AE476B5B5AA7FF8F1A61D215BA989D70 /* Pods-iSnackBarExample.debug.xcconfig */,
+				2BAFD31138A302DF286CD36FCE0AF3EE /* Pods-iSnackBarExample.release.xcconfig */,
+			);
+			name = "Pods-iSnackBarExample";
+			path = "Target Support Files/Pods-iSnackBarExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F302E1371F426274BE58A25AAC60722 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743178B4C3D09B1C62B7E5BD19D48089 /* iSnackBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80009C74E48BABEF6F3A69E0AEBA464F /* iSnackBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994B842E498367429CD423FBD43D3C25 /* Build configuration list for PBXNativeTarget "iSnackBar" */;
+			buildPhases = (
+				8162F0515DA9CBAF91D25E2ED51968A7 /* Sources */,
+				3E593121239C721B7AA75ADE49252CD7 /* Frameworks */,
+				3F302E1371F426274BE58A25AAC60722 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSnackBar;
+			productName = iSnackBar;
+			productReference = B734B251E5548666B87B226638310E6F /* libiSnackBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F26255AC73AAA11224FA164E88260516 /* Pods-iSnackBarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BD6DA3F8748521F9C50EDF3E16DA5A /* Build configuration list for PBXNativeTarget "Pods-iSnackBarExample" */;
+			buildPhases = (
+				2DEB8B5401845B2EFB46A18F7462D77E /* Sources */,
+				4F4E63BA79F61C196840EF946B3D12E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF87335C5F465441D66709EC9CACE25 /* PBXTargetDependency */,
+			);
+			name = "Pods-iSnackBarExample";
+			productName = "Pods-iSnackBarExample";
+			productReference = 9D7EA4131747321329AF570CCB5C0FD8 /* libPods-iSnackBarExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B34F675FE255A9929940996339ACFA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80009C74E48BABEF6F3A69E0AEBA464F /* iSnackBar */,
+				F26255AC73AAA11224FA164E88260516 /* Pods-iSnackBarExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEB8B5401845B2EFB46A18F7462D77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3F0DFCA88C685255F48F02EF8BC9DA /* Pods-iSnackBarExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8162F0515DA9CBAF91D25E2ED51968A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B5744F632637FC5095D85356CB1D90 /* iSnackBar-dummy.m in Sources */,
+				4C6F417788D7E6CD050FFCF16DB8BBC0 /* iSnackBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AF87335C5F465441D66709EC9CACE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iSnackBar;
+			target = 80009C74E48BABEF6F3A69E0AEBA464F /* iSnackBar */;
+			targetProxy = 0560C6948E2458C1A0804D85F88F27CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2469724D3543B3DF2D7D90339A24C628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF4B5C642395A82B3AE7E799D11B997 /* iSnackBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iSnackBar/iSnackBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		745AFE6A8D1CD6BB3434CA5A3E8F374D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE476B5B5AA7FF8F1A61D215BA989D70 /* Pods-iSnackBarExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92AC91B45F2BE598E32C045060889082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF4B5C642395A82B3AE7E799D11B997 /* iSnackBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iSnackBar/iSnackBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EFF2435C369A18D45FAFD08DDDA9569D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAFD31138A302DF286CD36FCE0AF3EE /* Pods-iSnackBarExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BD6DA3F8748521F9C50EDF3E16DA5A /* Build configuration list for PBXNativeTarget "Pods-iSnackBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745AFE6A8D1CD6BB3434CA5A3E8F374D /* Debug */,
+				EFF2435C369A18D45FAFD08DDDA9569D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994B842E498367429CD423FBD43D3C25 /* Build configuration list for PBXNativeTarget "iSnackBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2469724D3543B3DF2D7D90339A24C628 /* Debug */,
+				92AC91B45F2BE598E32C045060889082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
