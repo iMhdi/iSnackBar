@@ -72,6 +72,6 @@ New snackbar objects can be created using the following methods:
 
 
 ## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
+If this project helped you, buy me coffee :coffee:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/MahdiBoukhris)
