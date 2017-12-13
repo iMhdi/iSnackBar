@@ -43,20 +43,20 @@ New snackbar objects can be created using the following methods:
     + (void) snackBarWithMessage:(NSString*) message
     
     + (void) snackBarWithMessage:(NSString*) message
-          						      font:(UIFont*) font
-          			 backgroundColor:(UIColor*) bgColor
-            				   textColor:(UIColor*) textColor
-              					duration:(float) duration
+						font:(UIFont*) font
+			 backgroundColor:(UIColor*) bgColor
+				   textColor:(UIColor*) textColor
+					duration:(float) duration
                         
     + (void) snackBarWithMessage:(NSString*) message action:(NSString*) actionName delegate:(id) delegate
     
     + (void) snackBarWithMessage:(NSString*) message
-						                font:(UIFont*) font
-			           backgroundColor:(UIColor*) bgColor
-				               textColor:(UIColor*) textColor
-					                action:(NSString*) action
-					              delegate:(id) delegate
-			              		duration:(float) duration
+						font:(UIFont*) font
+			 backgroundColor:(UIColor*) bgColor
+				   textColor:(UIColor*) textColor
+					  action:(NSString*) action
+					delegate:(id) delegate
+					duration:(float) duration
 
                  
 * `message` is the text to be displayed on the snackbar's text label.
