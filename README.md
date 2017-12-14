@@ -22,6 +22,8 @@ The list is divided into two sections:
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![Alt text](iSnackBar-Demo.gif?raw=true "Title")
+
 ## Installation
 
 This project is available via CocoaPods. In order to install, simply add `"iSnackbar"` to your Podfile. 
