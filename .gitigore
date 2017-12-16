@@ -1,0 +1,9 @@
+# OS X
+.DS_Store
+
+# Xcode
+build/
+DerivedData
+*.hmap
+*.ipa
+

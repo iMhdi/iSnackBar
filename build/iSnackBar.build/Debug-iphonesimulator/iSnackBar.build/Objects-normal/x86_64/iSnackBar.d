@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/imahdi/Desktop/iSnackBar/iSnackBarLib/iSnackBar/iSnackBar.m \
-  /Users/imahdi/Desktop/iSnackBar/iSnackBarLib/iSnackBar/iSnackBar.h
+  /Users/iMahdi/Documents/GitHub\ Projects/iSnackBar/iSnackBar/iSnackBar.m \
+  /Users/iMahdi/Documents/GitHub\ Projects/iSnackBar/iSnackBar/iSnackBar.h
