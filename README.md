@@ -71,9 +71,3 @@ New snackbar objects can be created using the following methods:
 * `duration` is the length of time for which the snackbar should remain on the screen before it is dismissed.
 * `actionName` is the text to be displayed on the snackbar's button.
 * `delegate` is the delegate that would receive the callback if/when the snackbar's button is clicked.
-
-
-## Donation
-If this project helped you, buy me coffee :coffee:
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/MahdiBoukhris)
